@@ -7,7 +7,7 @@ issue_tracker: https://github.com/dart-code-checker/dart-code-metrics/issues
 documentation: https://dcm.dev/docs/getting-started/
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.1.0 <4.0.0"
 
 platforms:
   linux:
@@ -18,29 +18,29 @@ dependencies:
   analyzer: ^6.5.0
   analyzer_plugin: ">=0.11.0 <0.12.0"
   ansicolor: ^2.0.2
-  args: ^2.4.2
+  args: ^2.5.0
   collection: ^1.18.0
   crypto: ^3.0.3
-  dart_code_metrics_presets: ^2.10.0
+  dart_code_metrics_presets: ^2.11.0
   file: ^7.0.0
   glob: ^2.1.2
-  html: ">=0.15.0 <1.0.0"
+  html: ^0.15.4
   http: ^1.2.1
-  meta: ^1.12.0
+  meta: any
   path: ^1.9.0
-  platform: ^3.1.0 # overridden for lowest versions compatibility
+  platform: ^3.1.4 # overridden for lowest versions compatibility
   pub_updater: ^0.4.0
   source_span: ^1.10.0
-  uuid: ^4.3.3
-  xml: ">=5.3.0 <7.0.0"
+  uuid: ^4.4.0
+  xml: ^6.5.0
   yaml: ^3.1.2
 
 dev_dependencies:
-  coverage: ^1.0.2
+  coverage: ^1.7.2
   intl: ^0.19.0
   lints: ^3.0.0
   mocktail: ^1.0.3
-  test: ^1.25.2
+  test: ^1.25.3
 
   # internal package, used only in tests data
   test_lints:
